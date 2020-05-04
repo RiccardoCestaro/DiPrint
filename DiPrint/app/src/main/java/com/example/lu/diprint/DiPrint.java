@@ -34,7 +34,7 @@ public class DiPrint {
             res0 = "real";
         }
 
-        return res0;
+        return "\nsospiciousLib: " + res1 + "\nHostAPK: " + res2 + "\nshellUID: " + res3;
     }
 
 

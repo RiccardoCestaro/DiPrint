@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     res = "real";
                 }
-                addTextView("Detection Result ", res);
+                addTextView("Detection Result: ", res1 + "\n undeclared permission: "   + res2 + "\nAPKcodeLoadingPath: " + res3 + "\nStack trace: " + res4);
             }
         });
     }
