@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://F:\LAB\DiFinder\MaFinderCode\DiPrint\DiFinder2.iml" filepath="F:\LAB\DiFinder\MaFinderCode\DiPrint\DiFinder2.iml" />
+      <module fileurl="file://F:/LAB/DiFinder/MaFinderCode/DiPrint/DiFinder2.iml" filepath="F:/LAB/DiFinder/MaFinderCode/DiPrint/DiFinder2.iml" />
       <module fileurl="file://$PROJECT_DIR$/DiPrint.iml" filepath="$PROJECT_DIR$/DiPrint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiPrint-DiPrint.iml" filepath="$PROJECT_DIR$/DiPrint-DiPrint.iml" group="DiPrint" />
+      <module fileurl="file://$PROJECT_DIR$/app/DiPrint-app.iml" filepath="$PROJECT_DIR$/app/DiPrint-app.iml" group="DiPrint/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

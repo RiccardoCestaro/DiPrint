@@ -50,7 +50,7 @@ public class DiPrint {
                 String lineTxt;
                 int flag = 0;
                 while ((lineTxt = bufferedReader.readLine()) != null) {
-                    if (lineTxt.contains(".so") && !lineTxt.contains("/system/lib/") && !lineTxt.contains("libmylibrary") && !lineTxt.contains("/system/vendor/lib/")) {
+                    if (lineTxt.contains(".so") && !lineTxt.contains("/system/lib/") && !lineTxt.contains("libmylibrary") && !lineTxt.contains("/system/vendor/lib/") && !lineTxt.contains("/system/lib64/")&& !lineTxt.contains("/system/vendor/lib64/") ) {
                         libpath.append(lineTxt);
                         System.out.println("hostAPK--"+lineTxt);
                         flag = 1;
