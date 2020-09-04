@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
     private static final String RTAG ="test" ;
 
     //static native void test();
-    static {
-        System.loadLibrary("mylibrary");
-    }
+    //static {
+    //    System.loadLibrary("mylibrary");
+    //}
 
 
     StringBuffer libpath = new StringBuffer();
@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        final String res4 = getStatckTrace();
+
         Button btnTest = (Button) findViewById(R.id.button);
         btnTest.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 String res1 = DiPrint.detect();
                 String res2 = checkUndeclaedPermission();
                 String res3 = checkAPKCodeLoadingPath();
-                String res4 = getStatckTrace();
+
 
                 if (res1.equals("virtualization") || res2.equals("virtualization") || res3.equals("virtualization")|| res4.equals("virtualization")){
                     res = "virtualization";
